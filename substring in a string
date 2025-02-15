@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100], substr[100];
+    scanf("%s %s", str,substr);
+    if (strstr(str, substr) != NULL)
+        printf("Substring found!\n");
+    else
+        printf("Substring not found.\n");
+
+    return 0;
+}
